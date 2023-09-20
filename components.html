@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Components</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.21.0/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        /* Custom CSS for Navbar */
+        .custom-navbar {
+            background-color: #007bff; /* Blue background color */
+        }
+
+        .navbar-logo {
+            width: 40px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 10px; /* Margin between logo and text */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-x-lg navbar-light custom-navbar">
+        <div class="container">
+            <!-- Logo and Text on the Left -->
+            <a class="navbar-brand" href="#">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Blue_computer_icon.svg/1024px-Blue_computer_icon.svg.png" alt="Logo" class="navbar-logo">
+                <b>Computer Generation</b>
+            </a>
+            
+            <!-- Menu Icon on the Right -->
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i> <!-- Bootstrap Icons menu icon -->
+            </button>
+            
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+    <div class="main bg-primary w-100 p-5 h-100">
+        <div class="parentdiv bg-white m-2 p-2">
+            <h1 class="title text-center m-5">Computer Generation</h1>
+            <div class="cg text-center p-3">
+                <!-- First modal -->
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cg1">
+                    CG 1
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="cg1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h1>First Generation - 1940 – 1956 - Vacuum Tube</h1>
+                                <img height="200px" width="300px"
+                                    src="https://www.tutorialspoint.com/basics_of_computer_science/images/binarycoded_concept.jpg"
+                                    alt="">
+                                    <p>The term "1st generation computer" refers to the earliest computers that were
+                                        developed and used in the late 1940s and 1950s. These computers are often referred
+                                        to as "first-generation" or "vacuum tube computers" because they relied on vacuum
+                                        tube technology for their operation. Here are some key characteristics of 1st
+                                        generation computers:</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+
+                <!-- Second modal -->
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cg2">
+                    CG 2
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="cg2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h1>Second Generation- 1956 – 1963- Transistors</h1>
+                                <img height="200px" width="300px"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/5/52/IBM_1620_data_processing_machine_on_display%2C_Seattle_World%27s_Fair%2C_1962.jpg"
+                                    alt="">
+                                    <p>Second-generation computers, developed in the late 1950s and throughout the 1960s,
+                                        marked a significant advancement in computer technology compared to their
+                                        first-generation predecessors. Key characteristics of second-generation computers
+                                        include:</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+
+                <!-- Third modal -->
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cg3">
+                    CG 3
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="cg3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h1>Third Generation - 1964 – 1971 - Integrated Circuits</h1>
+                                <img height="200px" width="300px"
+                                    src="https://www.tutorialspoint.com/computer_fundamentals/images/third_generation.jpg"
+                                    alt="">
+                                    <p>Third-generation computers, developed in the 1960s and 1970s, represented a
+                                        significant advancement over their predecessors in terms of technology, size, and
+                                        capabilities. Key characteristics of third-generation computers include:</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+
+                <!-- Fourth modal -->
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cg4">
+                    CG 4
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="cg4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h1>Fourth Generation- - 1972 – 2010 - Microprocessors</h1>
+                                <img height="200px" width="300px"
+                                    src="https://www.physics-and-radio-electronics.com/computer-basics/generations-of-computer/images/fourth-generation.jpg"
+                                    alt="">
+                                    <p>Fourth-generation computers, developed in the late 1970s and throughout the 1980s,
+                                        brought about significant advancements in computer technology and design compared to
+                                        their predecessors. Key characteristics of fourth-generation computers include:</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+
+                <!-- Fifth Modal -->
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cg5">
+                    CG 5
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="cg5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h1>Fifth Generation - 2010- present - Artificial Intelligence</h1>
+                                <img height="200px" width="300px"
+                                    src="https://www.tutorialspoint.com/computer_fundamentals/images/fifth_generation.jpg"
+                                    alt="">
+                                    <p>Fifth-generation computers are a term that has been used to describe a potential
+                                        future generation of computers, characterized by advanced capabilities and
+                                        technologies that extend beyond what we typically associate with contemporary
+                                        computers. As of my last knowledge update in September 2021, fifth-generation
+                                        computers were more of a concept and a vision for the future rather than a reality.
+                                        However, I can provide some insights into the ideas and expectations associated with
+                                        fifth-generation computers:</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
